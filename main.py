@@ -6,7 +6,7 @@ from vilao import Vilao
 from utils import limpar_tela, pausar, imprimir_titulo, imprimir_log, escolher_opcao, exibir_barra_vida, exibir_barra_mana
 
 def menu_principal():
-    imprimir_titulo("BEM-VINDO AO RPG APRIMORADO")
+    imprimir_titulo("BEM-VINDO AO DESAFIO 🕹️ Improve This Game 🕹️")
     print("\nEscolha o que deseja fazer:")
     opcoes = ["Iniciar Nova Aventura", "Sair do Jogo"]
     escolha = escolher_opcao(opcoes)
